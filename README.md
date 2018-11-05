@@ -1,8 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Neighbourhood Map
 
-## Available Scripts
+It is an application which gives you information about the popular locations around a particular area (Haldia, India in this app).
 
-In the project directory, you can run:
+It is build using React and uses Google MAP API for the map services.
+
+## How to use this Application
+
+1) Download this project repository onto your computer.
+
+2) Open up the terminal and type the following comands-
+
+    * ```npm install``` - To install application dependencies
+    * ```npm start``` - To start the application
+
+> Note: You need to have NPM preinstalled on your system.
+
+## Available scripts
 
 ### `npm start`
 
@@ -42,3 +55,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Author
+
+SHUBHAM PRAKASH
+
+(shubham.prakash2308@gmail.com)
+
+LinkedIn:
+https://linkedin.com/in/ishubhamprakash/
