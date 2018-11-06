@@ -9,24 +9,44 @@ body {
 
 /* Styles for Header */
 
-.header-container{
+.header-container {
   display: flex;
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  background: #fff;
+  position: relative;
+  z-index: 1000;
 }
 
-.menu-button{
+.menu-button {
   padding: 1em;
 }
 
 .menu-button img {
-  width:30px;
-  height:auto;
+  width: 30px;
+  height: auto;
 }
-.header-text{
-  width:100%;
+
+.header-text {
+  width: 100%;
   font-weight: normal;
   font-size: 0.8em;
   text-align: center;
+}
+
+/* Styles for sidebar */
+
+.side-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 66px;
+  width: 200px;
+  height: 100%;
+  max-height: 100vh;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  z-index: 500;
 }
