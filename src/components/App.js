@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import Header from "./Header";
 import SideBar from "./SideBar";
-import LocationList from "./LocationList";
+// import LocationList from "./LocationList";
 
 class App extends Component {
 
@@ -168,16 +168,16 @@ fetch(url)
 
         <Header />
 
-        <SideBar />
-
-        <LocationList
+        <div className="main-body">
+        <SideBar
           locationData={this.state.locationData}
           openInfoWindow={this.openInfoWindow}
           closeInfoWindow={this.closeInfoWindow}
         />
 
-        <div id="map" />
+          <div id="map" />
 
+        </div>
     </div>
     );
   }

@@ -35,12 +35,20 @@ body {
   text-align: center;
 }
 
+
+.main-body{
+}
+
+#map{
+  width:calc(100%-200px);
+  margin-left: 200px;
+}
+
+
 /* Styles for sidebar */
 
 .side-bar {
-  position: absolute;
-  left: 0;
-  top: 0;
+  float: left;
   padding-top: 66px;
   width: 200px;
   height: 100%;
@@ -48,7 +56,6 @@ body {
   -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
-  z-index: 500;
-  /* temporarily hide sidebar */
-  display: none;
+
+
 }
