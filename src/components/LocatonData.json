@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Yo! China",
+      "type": "Restaurant",
+      "lat": 25.608897,
+      "lng": 85.136027
+    },
+    {
+      "name": "N P Center Restaurant",
+      "type": "Restaurant",
+      "lat": 25.608072,
+      "lng": 85.137554
+    },
+    {
+      "name": "Elevens",
+      "type": "Hotel",
+      "lat": 25.608434,
+      "lng": 85.137930
+    },
+    {
+      "name": "Ghar Aangan",
+      "type": "Restaurant",
+      "lat": 25.607168,
+      "lng": 85.133190
+    },
+    {
+      "name": "Patna Junction",
+      "type": "Station",
+      "lat": 25.604363,
+      "lng": 85.138295
+    },
+    {
+      "name": "Cofee Shop",
+      "type": "Hotel",
+      "lat": 25.606594,
+      "lng": 85.138436
+    },
+    {
+      "name": "Hotel Samrat International",
+      "type": "Hotel",
+      "lat": 25.608509,
+      "lng": 85.137600
+    },
+    {
+      "name": "N P Center",
+      "type": "Mall",
+      "lat": 25.609835,
+      "lng": 85.136622
+    },
+    {
+      "name": "Patna Central",
+      "type": "Mall",
+      "lat": 25.611897,
+      "lng": 85.138938
+    },
+    {
+      "name": "Subway",
+      "type": "Subway",
+      "lat": 25.605607,
+      "lng": 85.133534
+    }
+  ]
