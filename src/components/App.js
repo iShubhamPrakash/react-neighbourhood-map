@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Header from "./Header"
-import SideBar from "./SideBar"
+import Header from "./Header";
+import SideBar from "./SideBar";
+import LocationList from "./LocationList";
 
 class App extends Component {
 
@@ -13,11 +14,11 @@ class App extends Component {
   }
 
   componentDidMount() {
+    const apiKey = "AIzaSyBI20h8IjJ3gP82J6MTxEJMlwY4K7nsFak";
+    const mapURL = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
     window.initMap = this.initMap;
     // Asynchronously load the Google Maps script, passing in the callback reference
-    addMapScript(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI20h8IjJ3gP82J6MTxEJMlwY4K7nsFak&callback=initMap"
-    );
+    addMapScript(mapURL);
   }
 
   initMap = () => {
@@ -164,10 +165,19 @@ fetch(url)
   render(){
     return (
       <div className="main-app">
-        <Header />
-        <SideBar/>
 
-      <div id="map" />
+        <Header />
+
+        <SideBar />
+
+        <LocationList
+          locationData={this.state.locationData}
+          openInfoWindow={this.openInfoWindow}
+          closeInfoWindow={this.closeInfoWindow}
+        />
+
+        <div id="map" />
+
     </div>
     );
   }
