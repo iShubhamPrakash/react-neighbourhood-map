@@ -4,8 +4,13 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(236, 235, 235);
+
 }
 
+* {
+  box-sizing: border-box;
+}
 
 /* Styles for Header */
 
@@ -14,7 +19,7 @@ body {
   -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
-  background: #fff;
+  background: rgb(36, 106, 133);
   position: relative;
   z-index: 1000;
 }
@@ -29,6 +34,7 @@ body {
 }
 
 .header-text {
+  color:white;
   width: 100%;
   font-weight: normal;
   font-size: 0.8em;
@@ -36,11 +42,10 @@ body {
 }
 
 
-.main-body{
-}
+.main-body {}
 
-#map{
-  width:calc(100%-200px);
+#map {
+  width: calc(100%-200px);
   margin-left: 200px;
 }
 
@@ -49,13 +54,51 @@ body {
 
 .side-bar {
   float: left;
-  padding-top: 66px;
+  padding: 2px;
   width: 200px;
   height: 100%;
   max-height: 100vh;
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+  text-align: left;
+  background: rgb(236, 235, 235);
+  margin-left: -2px;
+}
 
+.filter-title {
+  text-align: center;
+}
 
+#search-box {
+  display: block;
+  width: 97%;
+  height: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  padding-left: 20px;
+  outline:none;
+}
+
+.filter-area {
+  padding: 0;
+}
+
+.location-list {
+  list-style: none;
+}
+
+.location-list li {
+  margin-left: -40px;
+  padding: 0.7em;
+  outline:none
+}
+
+.location-list li:hover {
+  outline: none;
+  background:#659aaf7e;
+}
+
+.location-list li:focus {
+  outline: none;
+  background:#246a85;
+  color:white;
 }

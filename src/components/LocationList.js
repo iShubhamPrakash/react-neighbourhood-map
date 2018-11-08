@@ -53,6 +53,7 @@ class LocationList extends Component {
 
     return (
       <div className='filter-area'>
+        <h3 className="filter-title">Filter Location</h3>
         <input
           id='search-box'
           role='search'
