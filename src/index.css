@@ -34,15 +34,13 @@ body {
 }
 
 .header-text {
-  color:white;
+  color: white;
   width: 100%;
   font-weight: normal;
   font-size: 0.8em;
   text-align: center;
 }
 
-
-.main-body {}
 
 #map {
   width: calc(100%-200px);
@@ -75,7 +73,7 @@ body {
   margin-right: auto;
   border-radius: 40px;
   padding-left: 20px;
-  outline:none;
+  outline: none;
 }
 
 .filter-area {
@@ -89,21 +87,21 @@ body {
 .location-list li {
   margin-left: -40px;
   padding: 0.6em;
-  outline:none
+  outline: none
 }
 
 .location-list li:hover {
   outline: none;
-  background:#659aaf7e;
+  background: #659aaf7e;
 }
 
 .location-list li:focus {
   outline: none;
-  background:#246a85;
-  color:white;
+  background: #246a85;
+  color: white;
 }
 
-#place-icon{
-  width:13px;
+#place-icon {
+  width: 13px;
   height: auto;
 }
