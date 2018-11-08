@@ -88,7 +88,7 @@ body {
 
 .location-list li {
   margin-left: -40px;
-  padding: 0.7em;
+  padding: 0.6em;
   outline:none
 }
 
@@ -101,4 +101,9 @@ body {
   outline: none;
   background:#246a85;
   color:white;
+}
+
+#place-icon{
+  width:13px;
+  height: auto;
 }
