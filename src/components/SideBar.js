@@ -1,5 +1,6 @@
 import React from 'react';
 import LocationList from "./LocationList";
+import PropTypes from 'prop-types';
 
 // This component is for sidebar on left of the app
 function SideBar(props){
@@ -14,5 +15,13 @@ function SideBar(props){
             </div>
             );
 }
+
+
+SideBar.propTypes = {
+    openInfoWindow: PropTypes.func,
+    closeInfoWindow: PropTypes.func,
+    locationData: PropTypes.array
+};
+
 
 export default SideBar;

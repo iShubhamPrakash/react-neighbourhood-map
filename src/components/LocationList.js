@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Location from './Location';
+import PropTypes from 'prop-types';
+
 
 class LocationList extends Component {
   state = {
@@ -70,5 +72,11 @@ class LocationList extends Component {
     )
   }
 }
+
+LocationList.propTypes = {
+  openInfoWindow: PropTypes.func,
+  closeInfoWindow: PropTypes.func,
+  locationData: PropTypes.array
+};
 
 export default LocationList;

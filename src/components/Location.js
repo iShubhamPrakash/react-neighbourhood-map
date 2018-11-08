@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // This component is for the list item in the Places list
 function Location (props) {
@@ -18,5 +19,11 @@ function Location (props) {
 
   )
 }
+
+Location.propTypes = {
+  openInfoWindow: PropTypes.func,
+  closeInfoWindow: PropTypes.func,
+  placeData: PropTypes.object
+};
 
 export default Location;

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import Header from "./Header";
 import SideBar from "./SideBar";
-// import LocationList from "./LocationList";
 
 class App extends Component {
 
