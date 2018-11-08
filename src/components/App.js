@@ -174,7 +174,7 @@ fetch(url)
           closeInfoWindow={this.closeInfoWindow}
         />
 
-          <div id="map" />
+          <div id="map" role="application"/>
 
         </div>
     </div>
