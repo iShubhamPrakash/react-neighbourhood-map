@@ -4,6 +4,11 @@ It is an application which gives you information about the popular locations aro
 
 It is build using React and uses Google MAP API for the map services.
 
+## APIs used in the project
+
+* Google Map API: To load Map
+* Foursquare API: To get the location data and review link
+
 ## How to use this Application
 
 1) Download this project repository onto your computer.
