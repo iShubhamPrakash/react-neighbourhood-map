@@ -1,6 +1,6 @@
 # React Neighbourhood Map
 
-It is an application which gives you information about the popular locations around a particular area (Haldia, India in this app).
+It is an application which gives you information about the popular locations around a particular area (Patna (INDIA) in this app).
 
 It is build using React and uses Google MAP API for the map services.
 
